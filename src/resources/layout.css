@@ -1,0 +1,102 @@
+.layout-parent {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding: 15px;
+    gap: 20px;
+}
+
+.header {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.466);
+    width: 100%;
+    padding: 20px;
+}
+
+.header i{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.body {
+    width: 100%;
+}
+
+.sidebar {
+    background-color: var(--secondary);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding:20px;
+    flex-direction: column;
+}
+
+.sidebar-header{
+    text-align: center;
+}
+
+.logo{
+width: 150px;
+margin: 10px;
+}
+
+.logo2{
+    width: 50px;
+}
+
+.name{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.role{
+    color: white;
+    font-size: 15px;
+}
+
+.menu{
+    margin-top: 60px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 100%;
+    gap: 15px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+}
+
+/* .menu-item:hover{
+    border: 2px solid white;
+    background-color: var(--primary);
+} */
+
+.active{
+    border: 2px solid white;
+    background-color: var(--primary);
+}
+
+
+.menu-item i {
+    font-size: 25px;
+    color: white;
+}
+
+.menu-item span {
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+}
+
+.content {
+    padding: 10px 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 90vh;
+}
